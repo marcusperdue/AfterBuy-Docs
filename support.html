@@ -3,35 +3,48 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
   <title>AfterBuy Support</title>
   <meta name="description" content="Support contact information for AfterBuy.">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/afterbuy-logo-mark.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="page">
+  <main class="site-shell">
     <header class="topbar">
       <a class="brand" href="index.html" aria-label="AfterBuy home">
-        <span class="mark">A</span>
-        <span>After<span>Buy</span></span>
+        <img class="brand-mark" src="assets/afterbuy-logo-mark.png" alt="" width="48" height="48">
+        <span class="brand-copy">
+          <span class="wordmark"><span>After</span><span class="wordmark-buy">Buy</span></span>
+          <span class="brand-tagline">BUY SMARTER. SAVE BETTER.</span>
+        </span>
       </a>
-      <nav aria-label="Legal pages">
+      <nav class="nav-links" aria-label="Legal and support pages">
         <a href="privacy.html">Privacy</a>
-        <a href="support.html">Support</a>
+        <a href="support.html" aria-current="page">Support</a>
         <a href="privacy-choices.html">Privacy choices</a>
         <a href="terms.html">Terms</a>
       </nav>
     </header>
 
-    <section class="hero">
-      <div class="eyebrow">AfterBuy support</div>
-      <h1>Need help?</h1>
-      <p class="lead">For app issues, product search problems, privacy requests, or App Review questions, contact AfterBuy support.</p>
+    <section class="hero hero-compact">
+      <div class="hero-copy">
+        <div class="eyebrow">AfterBuy support</div>
+        <h1>We’re here to <span class="accent-text">help.</span></h1>
+        <p class="lead">Get help with product search, pricing results, privacy requests, or App Review questions.</p>
+      </div>
     </section>
 
+    <article class="content-card">
     <section class="section">
       <h2>Contact</h2>
-      <p>Email: <a href="mailto:marcusperduee@gmail.com">marcusperduee@gmail.com</a></p>
-      <p>GitHub Issues: <a href="https://github.com/marcusperdue/AfterBuy-Docs/issues">AfterBuy-Docs Issues</a></p>
+      <p>The fastest way to reach AfterBuy support is by email. For public bugs or documentation issues, you can also use GitHub Issues.</p>
+      <div class="contact-card">
+        <p><strong>Private support</strong><br><a href="mailto:marcusperduee@gmail.com">marcusperduee@gmail.com</a></p>
+        <a class="primary-button" href="mailto:marcusperduee@gmail.com?subject=AfterBuy%20Support">Email support</a>
+      </div>
+      <p>Public issues: <a href="https://github.com/marcusperdue/AfterBuy-Docs/issues">AfterBuy-Docs Issues</a></p>
       <p class="notice">Do not post private information, API keys, payment data, exact home addresses, or sensitive screenshots in a public GitHub issue. Use email for anything private.</p>
     </section>
 
@@ -50,9 +63,18 @@
       <h2>Product and pricing notes</h2>
       <p>AfterBuy gives purchase guidance based on available product and pricing signals. Final product price, tax, shipping, pickup availability, return policy, and seller condition should always be confirmed with the retailer or seller before buying.</p>
     </section>
+    </article>
 
     <footer class="footer">
-      <p>Last updated July 6, 2026.</p>
+      <div class="footer-brand">
+        <img src="assets/afterbuy-logo-mark.png" alt="" width="34" height="34">
+        <p>AfterBuy support.<br>Last updated July 6, 2026.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer links">
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
     </footer>
   </main>
 </body>
